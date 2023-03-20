@@ -122,7 +122,7 @@ def get_transaction_history(api_key, address):
     
 
 def main():
-    api_key = '5M47SltcWwM6LG4DjNisTcSdNs175YsOUePfgmVKqYSAOFxPRaPaD2VRF4H4V4SH'
+    api_key = '-'
     address = '0x098b716b8aaf21512996dc57eb0615e2383e2f96'
     get_transaction_history(api_key, address)
 
