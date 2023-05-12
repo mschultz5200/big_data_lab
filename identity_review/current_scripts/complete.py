@@ -69,5 +69,3 @@ def predict_malicious(api_key, address):
     normalized = normalize(tested_address, scalar)
     output = predict(normalized, model)
     return output
-
-print(predict_malicious('XlcQuHE1hrCzNEfej695gyAGREGQIhL4lRurJqgJFv32nhP9fTpdtUJOr5cQEqBV', '0x098b716b8aaf21512996dc57eb0615e2383e2f96'))
